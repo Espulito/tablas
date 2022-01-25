@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <!-- Lugar donde el usuario puede ingresar los valores deseados. -->
+
+    <div class="input">
+      <label for="num">Ingrese un número:</label>
+      <input name="numero" type="text" id="num" onkeyup="check()" />
+    </div>
+
+    <!-- Alerta al usuario cuando el valor ingresado no es un número. -->
+
+    <div class="error">
+      <p class="text" id="text"></p>
+    </div>
+
+    <!-- Tabla donde se representarán los resultados. -->
+
+    <table class="tabla">
+      <tr>
+        <th>Multiplicador</th>
+        <th>Resultados</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td id="result1"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td id="result2"></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td id="result3"></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td id="result4"></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td id="result5"></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td id="result6"></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td id="result7"></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td id="result8"></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td id="result9"></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td id="result10"></td>
+      </tr>
+    </table>
+
+    <footer>
+      <h6>
+        Copyright © 2022.
+        <a href="https://instagram.com/martin_reale13" target="_blank"
+          >Martin Reale</a
+        >
+        <br />
+        Todos los derechos reservados.
+      </h6>
+    </footer>
+  </body>
+</html>
